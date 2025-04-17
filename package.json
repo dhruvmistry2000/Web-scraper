@@ -1,0 +1,13 @@
+{
+  "name": "exactspace",
+  "version": "1.0.0",
+  "description": "Node.js scraper using Puppeteer",
+  "main": "scrape.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scrape.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.0.0"
+  }
+}
