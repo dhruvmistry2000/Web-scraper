@@ -4,6 +4,7 @@ This project performs basic website scraping using Puppeteer. It extracts data s
 You can access the data by visiting `http://localhost:5000`. All of this is done in a containerized environment using Docker.
 ![image](image.png)
 
+
 # How to Use
 
 1. Clone the repository to your local machine and navigate into it:
@@ -12,7 +13,7 @@ You can access the data by visiting `http://localhost:5000`. All of this is done
     cd Web-scraper
     ```
 
-2. Build the Docker image using the following command:
+2. Build the Docker image from the [Dockerfile](Dockerfile) using the following command:
     ```bash
     docker build -t web-scraper .
     ```
